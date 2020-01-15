@@ -1,0 +1,18 @@
+.video-react {
+  .video-react-modal {
+    position: absolute;
+    background: rgba(43, 51, 63, 0.7);
+    width: 100%;
+    top: 0px;
+    height: 100%;
+    font-size: 18px;
+    text-align: center;
+    .video-react-modal-content {
+      width: 100%;
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+}
